@@ -19,14 +19,13 @@
 #logo{
     height: 232px; 
     width: 412px;
-    /* transform: translate(-420px,-320px);
-    transform: scale(0.32,0.32);
-    transition: all 2s ease-in-out; */
+    transform: translate(-420px,-320px) scale(0.32,0.32);
+    transition: all 4s ease-in-out;
     cursor: pointer;
-    animation: fly 2s linear;
+    /* animation: fly 2s linear; */
 }
 
-@keyframes fly{
+/* @keyframes fly{
     0%{
         height: 232px; 
         width: 412px;
@@ -42,7 +41,7 @@
         top: 1%;
         left: 1%;
     }
-}
+} */
 
 /* @keyframes fly{
     0%{
