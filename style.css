@@ -19,7 +19,7 @@
 #logo{
     height: 232px; 
     width: 412px;
-    transform: translate(-420px,-320px) scale(0.32,0.32);
+    transform: translate(-420px,-320px) scale(0.32,0.32); 
     transition: all 4s ease-in-out;
     cursor: pointer;
     /* animation: fly 2s linear; */
@@ -72,14 +72,14 @@ ul{
     animation: fadeIn 2.5s ease-in;
 }
 
-@keyframes fadeIn{
+/* @keyframes fadeIn{
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-}
+} */
 
 li{
     float: left;
@@ -90,7 +90,7 @@ li img {
     margin: -41px -12px 0 -32px;
     width: 132px;
     height: 74px;
-    animation: fadeIn 9s linear;
+    /* animation: fadeIn 9s linear; */
     visibility: hidden;
 }
 
@@ -109,6 +109,10 @@ li a:hover{
     border-bottom: 2px solid white;
 }
 
+li:last-child a:hover{
+    border-bottom: none;
+}
+
 .heading{
     position: absolute;
     top: 50%;
@@ -120,5 +124,5 @@ li a:hover{
     font-size: 60px;
     font-weight: 400;
     /* visibility: hidden; */
-    animation: fadeIn 8s 1s ease-in-out;
+    /* animation: fadeIn 8s 1s ease-in-out; */
 }
