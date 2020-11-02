@@ -11,3 +11,7 @@
 //     animateComponents.classList.add('motion');
 //     brandImg.classList.add('visible');
 // });
+
+window.addEventListener('load', () => {
+    
+})
