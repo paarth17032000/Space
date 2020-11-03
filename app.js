@@ -1,6 +1,6 @@
 'use strict'
 
-// const logo = document.querySelector('#logo');
+const logo = document.querySelector('#logo');
 // const brandImg = document.querySelector('li'); 
 // const animateComponents = document.querySelector('.animate');
 
@@ -13,5 +13,5 @@
 // });
 
 window.addEventListener('load', () => {
-    
+    logo.classList.add('animate');
 })
