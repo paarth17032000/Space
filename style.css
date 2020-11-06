@@ -6,6 +6,11 @@
     background: url('./images/background.png') no-repeat center;
     background-size: cover;
     position: relative;
+    /* transition: scale 4s; */
+}
+
+.main{
+    /* transform: scale(1.25,1.25); */
 }
 
 .center{
@@ -19,46 +24,13 @@
 #logo{
     height: 232px; 
     width: 412px;
-    transform: translate(-420px,-320px) scale(0.32,0.32); 
     transition: all 4s ease-in-out;
     cursor: pointer;
-    /* animation: fly 2s linear; */
 }
 
-/* @keyframes fly{
-    0%{
-        height: 232px; 
-        width: 412px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    100%{
-        width: 132px;
-        height: 74px;
-        position: absolute;
-        top: 1%;
-        left: 1%;
-    }
-} */
-
-/* @keyframes fly{
-    0%{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    100%{
-        position: absolute;
-        top: 1%;
-        left: 1%;
-        transform: translate(-1%,-1%);
-        width: 132px;
-        height: 74px;
-    }
-} */
+.animation{
+    transform: translate(-420px,-320px) scale(0.32,0.32); 
+}
 
 nav{
     height: 95px;
@@ -72,14 +44,14 @@ ul{
     animation: fadeIn 2.5s ease-in;
 }
 
-/* @keyframes fadeIn{
+@keyframes fadeIn{
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-} */
+}
 
 li{
     float: left;
@@ -90,7 +62,6 @@ li img {
     margin: -41px -12px 0 -32px;
     width: 132px;
     height: 74px;
-    /* animation: fadeIn 9s linear; */
     visibility: hidden;
 }
 
@@ -123,6 +94,8 @@ li:last-child a:hover{
     color: white;
     font-size: 60px;
     font-weight: 400;
-    /* visibility: hidden; */
-    /* animation: fadeIn 8s 1s ease-in-out; */
+}
+
+.head-animate{
+    animation: fadeIn 10s ease-in;
 }

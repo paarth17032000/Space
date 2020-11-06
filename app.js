@@ -2,7 +2,8 @@
 
 const logo = document.querySelector('#logo');
 // const brandImg = document.querySelector('li'); 
-// const animateComponents = document.querySelector('.animate');
+const heading = document.querySelector('.animate');
+const main = document.querySelector('#main');
 
 // // console.log(logo,brandImg);
 // console.log(animateComponents);
@@ -13,5 +14,7 @@ const logo = document.querySelector('#logo');
 // });
 
 window.addEventListener('load', () => {
-    logo.classList.add('animate');
+    logo.classList.add('animation');
+    heading.classList.add('head-animate');
+    main.classList.add('main');
 })
