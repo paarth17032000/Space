@@ -9,10 +9,6 @@
     /* transition: scale 4s; */
 }
 
-.main{
-    /* transform: scale(1.25,1.25); */
-}
-
 .center{
     /* background-color: red; */
     height: calc(100vh - 190px);
