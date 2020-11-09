@@ -29,7 +29,7 @@
 }
 
 .animation{
-    transform: translate(-420px,-320px) scale(0.32,0.32); 
+    transform: translate(-700px,-320px) scale(0.32,0.32); 
 }
 
 nav{
@@ -97,5 +97,24 @@ li:last-child a:hover{
 }
 
 .head-animate{
-    animation: fadeIn 10s ease-in;
+    animation: fadeIn 6s ease-in;
+}
+
+/* second */
+
+#second{
+    height: 100vh;
+}
+
+.recents{
+    height: 14vh;
+    background-color: #202124;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satellite-img{
+    height: 45vh;
 }
