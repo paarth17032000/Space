@@ -10,7 +10,6 @@
 }
 
 .center{
-    /* background-color: red; */
     height: calc(100vh - 190px);
     display: flex;
     justify-content: center;
