@@ -102,7 +102,7 @@ li:last-child a:hover{
 }
 
 .recents{
-    height: 14vh;
+    height: 12vh;
     background-color: #202124;
     color: white;
     display: flex;
@@ -110,6 +110,16 @@ li:last-child a:hover{
     align-items: center;
 }
 
-.satellite-img{
-    height: 45vh;
+.satellite-img > img{
+    height: 60vh;
+    width: 100%;
+}
+
+/* media */
+
+@media screen and (max-width: 992px){
+    .satellite-img > img{
+        height: 50vh;
+        width: 100%;
+    }
 }
