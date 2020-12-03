@@ -102,7 +102,7 @@ li:last-child a:hover{
 }
 
 .recents{
-    height: 12vh;
+    height: 15vh;
     background-color: #202124;
     color: white;
     display: flex;
@@ -111,7 +111,7 @@ li:last-child a:hover{
 }
 
 .satellite-img > img{
-    height: 60vh;
+    height: 65vh;
     width: 100%;
 }
 
@@ -129,6 +129,11 @@ li:last-child a:hover{
     padding: 10px;
     text-align: left;
     margin: 20px 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: stretch;
+    align-items: flex-start;
+    line-height: 30px;
     /* vertical-align: center; */
 }
 
