@@ -134,7 +134,6 @@ li:last-child a:hover{
     justify-content: stretch;
     align-items: flex-start;
     line-height: 30px;
-    /* vertical-align: center; */
 }
 
 .background{
